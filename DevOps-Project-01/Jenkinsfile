@@ -28,7 +28,7 @@ pipeline {
 
         stage('Build Project1') {
             steps {
-                dir('project1') {
+                dir('DevOps-Project-01') {
                     sh 'mvn clean package -DskipTests'
                 }
             }
