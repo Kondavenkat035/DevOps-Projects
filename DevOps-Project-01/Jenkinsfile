@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         APP_NAME = "project1"
-        IMAGE_NAME = "yourdockerhub/project1:latest"
+        IMAGE_NAME = "kondavenkat035/project1:latest"
     }
 
     stages {
